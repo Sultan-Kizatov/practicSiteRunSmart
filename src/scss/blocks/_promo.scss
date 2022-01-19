@@ -39,9 +39,9 @@
             margin-bottom: 20px;
         }
     }
-    .button_main {
-        margin-top: 65px;
+    &__button {
         @include button;
+        margin-top: 65px;
         width: 303px;
         height: 54px;
         font-size: 16px;

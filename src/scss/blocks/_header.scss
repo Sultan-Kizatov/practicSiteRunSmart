@@ -32,7 +32,7 @@
             color: #FFFFFF;
         }
     }
-    .button {
+    &__button {
         @include button;
         width: 153px;
         height: 32px;
