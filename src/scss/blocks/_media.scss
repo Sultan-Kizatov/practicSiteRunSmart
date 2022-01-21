@@ -1,10 +1,32 @@
+@media screen and ( max-width: 1080px ) {
+    .carousel {
+        .prev {
+            left: -15px;
+        }
+        .next {
+            right: -15px;
+        }
+    }
+}
+
 @media screen and ( max-width: 970px ) {
     .container {
         padding: 0 20px;
     }
+    .carousel {
+        img {
+            width: 700px;
+        }
+        .prev {
+            left: 5px;
+        }
+        .next {
+            right: 10px;
+        }
+    }
 }
 
-@media screen and ( max-width: 767px ) {
+@media screen and ( max-width: 767.5px ) {
     .container {
         padding: 0 10px;
     }
@@ -45,6 +67,14 @@
         &_form {
             margin: 0 auto;
             margin-top: 36px;
+        }
+    }
+    .carousel {
+        img {
+            width: 100%;
+        }
+        button {
+            display: none;
         }
     }
 }
@@ -118,5 +148,8 @@
         &__descr {
             font-size: 19px;
         }
+    }
+    .carousel {
+        padding:50px 0;
     }
 }

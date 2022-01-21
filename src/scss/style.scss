@@ -1,19 +1,20 @@
 @import 'base/variables';
 @import 'base/mixins';
-@import 'blocks/promo';
-@import 'blocks/header';
-@import 'blocks/advantage';
-@import 'blocks/consultation';
-@import 'blocks/forms';
-@import 'base/media';
-
 
 * {
     font-family: 'MuseoModerno', sans-serif;
 }
 
 .container {
+    position: relative;
     max-width: 950px;
     margin: 0 auto;
 }
 
+@import 'blocks/promo';
+@import 'blocks/header';
+@import 'blocks/advantage';
+@import 'blocks/consultation';
+@import 'blocks/forms';
+@import 'blocks/carousel';
+@import 'blocks/media';
