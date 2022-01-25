@@ -1,0 +1,40 @@
+.reviews {
+    padding-bottom: 48px;
+    &__title{
+        font-weight: 700;
+        font-size: 30px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #0D0D0D;
+    }
+    &__wrapper{
+        .reviews-item {
+            margin-top: 60px;
+            display: flex;
+            img {
+                display: block;
+                width: 169px;
+                height: 169px;
+                margin-right: 60px;
+            }
+            &__name {
+                font-weight: 700;
+                font-size: 18px;
+                color: #0D0D0D;
+            }
+            &__achievement {
+                font-weight: 500;
+                font-size: 14px;
+                color: #646464;
+            }
+            &__text {
+                margin-top: 10px;
+                font-weight: 300;
+                font-size: 16px;
+                line-height: 24px;
+                color: #0D0D0D;
+            }
+        }
+    }
+
+}

@@ -77,6 +77,24 @@
             display: none;
         }
     }
+    .reviews {
+        .reviews-item{
+            display: block;
+            img {
+                margin: 0 auto;
+            }
+            &__name {
+                margin-top: 10px;
+                text-align: center;
+            }
+            &__achievement {
+                text-align: center;
+            }
+            &__text {
+                text-align: center;
+            }
+        }
+    }
 }
 
 @media screen and ( max-width: 575px ) {
