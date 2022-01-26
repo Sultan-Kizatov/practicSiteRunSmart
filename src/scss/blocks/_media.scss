@@ -170,4 +170,9 @@
     .carousel {
         padding:50px 0;
     }
+    .footer {
+        &__info {
+            width: 100%;
+        }
+    }
 }
