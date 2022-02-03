@@ -175,4 +175,15 @@
             width: 100%;
         }
     }
+    .overlay {
+        .modal {
+            width: 340px;
+            padding: 20px;
+            padding-top: 30px;
+            &__close {
+                top: 5px;
+                right: 10px;
+            }
+        }
+    }
 }
