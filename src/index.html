@@ -8,11 +8,12 @@
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/tiny-slider.css">
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
     <!-- Промо секция -->
-    <section class="promo">
+    <section class="promo" id="up">
         <div class="container">
             <!-- Шапка -->
             <header class="header">
@@ -508,7 +509,7 @@
         <div class="container">
             <h2 class="reviews__title">отзывы клиентов</h2>
             <div class="reviews__wrapper">
-                <div class="reviews-item">
+                <div class="reviews-item animate__animated animate__fadeInUp wow" data-wow-duration="0.5s" data-wow-delay="5s">
                     <img src="img/reviews/photo_1.jpg" alt="1">
                     <div class="reviews-item__descr">
                         <div class="reviews-item__name">Ирина Иванченко </div>
@@ -522,7 +523,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="reviews-item">
+                <div class="reviews-item animate__animated animate__fadeInUp wow" data-wow-duration="2s" data-wow-delay="1s">
                     <img src="img/reviews/photo_2.jpg" alt="2">
                     <div class="reviews-item__descr">
                         <div class="reviews-item__name">Иван Сёмочкин</div>
@@ -536,7 +537,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="reviews-item">
+                <div class="reviews-item animate__animated animate__fadeInUp wow" data-wow-duration="2s" data-wow-delay="1s">
                     <img src="img/reviews/photo_3.jpg" alt="3">
                     <div class="reviews-item__descr">
                         <div class="reviews-item__name">Юлия Дашкина</div>
@@ -606,9 +607,13 @@
         </div>
     </div>
 
+    <a href="#up" class="pageup">
+        <img src="icons/pageUp.svg" alt="up">
+    </a>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/tiny-slider.js"></script>
+    <script src="js/wow.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>

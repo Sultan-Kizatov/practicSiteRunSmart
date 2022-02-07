@@ -64,4 +64,23 @@ $(document).ready(function(){
     $('.modal__close').on('click', function() {
         $('.overlay, #consultation, #order, #thanks').fadeOut('slow');
     });
+
+    //pageUp при скроле
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > 1600) {
+           $('.pageup').fadeIn();
+        } else {
+            $('.pageup').fadeOut();
+        };
+    });
+    
+    //Плавность скрола
+    $("a[href=#up]").click(function() {
+        const _href = $(this).attr("href");
+        $("html, body").animate({scrollTop: $(_href).offset().top+"px"});
+        return false;
+    });
+
+    //Анимация для секции отзывов
+    new WOW().init();
 });

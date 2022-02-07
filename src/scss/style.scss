@@ -1,5 +1,7 @@
 @import 'base/variables';
 @import 'base/mixins';
+@import 'base/animate';
+
 
 * {
     font-family: 'MuseoModerno', sans-serif;
@@ -21,4 +23,5 @@
 @import 'blocks/reviews';
 @import 'blocks/footer';
 @import 'blocks/modal';
-@import 'blocks/media';
+@import 'blocks/pageup';
+@import 'base/media';
